@@ -30,7 +30,7 @@ public class Sample10 {
 
         } catch (IllegalArgumentException e) {
             // 메뉴에 없는 이름을 쳤을 때 예외 처리
-            System.out.println("그런 메뉴는 없습니다.");
+            System.out.println("그런 메뉴는 없습니다.s");
         } catch (NullPointerException e) {
             System.out.println("가격 정보가 없습니다.");
         }
